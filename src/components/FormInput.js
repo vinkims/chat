@@ -1,5 +1,5 @@
 import React from 'react';
-import {Stylesheet, Dimensions} from 'react-native';
+import {StyleSheet, Dimensions} from 'react-native';
 import {TextInput} from 'react-native-paper';
 
 const {width, height} = Dimensions.get('screen');
@@ -15,7 +15,7 @@ export default function FormInput({labelName, ...rest}){
     );
 }
 
-const styles = Stylesheet.create({
+const styles = StyleSheet.create({
     input:{
         marginTop: 10,
         marginBottom: 10,
