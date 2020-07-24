@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     },
     titleText:{
         fontSize: 24,
-        marginButton: 10
+        marginBottom: 10
     },
     loginButtonLabel:{
         fontSize: 22
