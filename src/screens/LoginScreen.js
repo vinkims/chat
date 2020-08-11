@@ -1,8 +1,8 @@
 import React, {useState, useReducer} from 'react';
 import {View, StyleSheet} from 'react-native';
 import {Title} from 'react-native-paper';
-import {FormInput} from '../components/FormInput';
-import {FormButton} from '../components/FormButton';
+import FormInput from '../components/FormInput';
+import FormButton from '../components/FormButton';
 
 export default function Login({navigation}){
     const [email, setEmail] = useState('');
