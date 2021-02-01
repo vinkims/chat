@@ -1,5 +1,4 @@
 # chat
-chat app
 
 This is a simple chat application built in React Native
 
